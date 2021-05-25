@@ -22,6 +22,7 @@
 	transform: translate(-50%, -50%);
 	width: 100%;
 	max-width: 528px;
+   height: 600px;
 	background-color: #fff;
 	border-radius: 4px;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -51,9 +52,10 @@
 	top: 8px;
 	right: 8px;
 	z-index: 3;
-	width: 30px;
-	height: 30px;
-	background-color: #fff;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+   
 	border-radius: 50%;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 6px 9px 6px 5px;
@@ -118,8 +120,29 @@
    background-image: url(../img/01.jpg);
    background-size: contain;
    background-repeat: no-repeat;
-   // height: 100%;
-   // width: 100%;
+   height: 100%;
+   width: 100%;
    height: 1280px;
    width: 720px;
+   padding-top: 200px;
+}
+
+.btn-love {
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.title-love {
+   font-size: 30px;
+   color: black;
+   text-align: center;
+   margin-bottom: 60px;
+
+}
+
+.btn {
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 30px;
 }
